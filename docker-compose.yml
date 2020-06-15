@@ -2,11 +2,10 @@ version: '2'
 services:
   mysql:
     restart: always
-    image: mysql:8.0
-    container_name: mysql
+    image: mariadb:10.4.13
+    container_name: maria
     ports:
       - "${MYSQL_PORT}:3306"
-    command: --default-authentication-plugin=mysql_native_password
     environment:
       - MYSQL_ROOT_PASSWORD=$ROOT_PASSWORD
       - TZ=Asia/Seoul
