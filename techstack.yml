@@ -1,7 +1,8 @@
 repo_name: siner308/mariadb-docker
 report_id: 4531b0da82367b8f8240298fe245b7a6
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-15T10:22:42+00:00'
+timestamp: '2024-01-05T08:40:23+00:00'
 requested_by: siner308
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/siner308/mariadb-docker
   detection_source: Repo Metadata
 - name: Adminer
   description: Full-featured database management tool written in PHP.
@@ -22,6 +24,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/7285/icon.png
+  detection_source_url: https://github.com/siner308/mariadb-docker/blob/master/docker-compose.yml
   detection_source: docker-compose.yml
   last_updated_by: siner308
   last_updated_on: 2020-06-15 08:43:07.000000000 Z
